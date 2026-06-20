@@ -10,40 +10,28 @@
 </p>
 
 <p align="center">
-  🇷🇺 <b>Русский</b> (ниже) &nbsp;·&nbsp; 🇬🇧 <a href="./README.en.md"><b>English</b></a>
+  🇬🇧 <b>English</b> &nbsp;·&nbsp; 🇷🇺 <a href="./README.md"><b>Русский</b></a>
 </p>
 
 <!-- ════════════════════════ TYPING ════════════════════════ -->
 <p align="center">
   <a href="https://github.com/ai-iskuzhin">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=720&lines=Fullstack+%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA+%E2%80%94+%D0%BE%D1%82+%D0%B8%D0%B4%D0%B5%D0%B8+%D0%B4%D0%BE+%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%BA%D1%88%D0%B5%D0%BD%D0%B0;ASP.NET+Core+%E2%80%A2+React+%E2%80%A2+TypeScript+%E2%80%A2+PostgreSQL;%D0%9F%D0%B8%D1%88%D1%83+open-source+.NET+SDK+%D0%B4%D0%BB%D1%8F+%D1%84%D0%B8%D0%BD%D1%82%D0%B5%D1%85%D0%B0;Building+APIs+that+verify%2C+charge+and+scale" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=720&lines=Fullstack+engineer+%E2%80%94+from+idea+to+production;ASP.NET+Core+%E2%80%A2+React+%E2%80%A2+TypeScript+%E2%80%A2+PostgreSQL;I+build+open-source+.NET+SDKs+for+fintech;APIs+that+verify%2C+charge+and+scale" alt="Typing SVG" />
   </a>
 </p>
 
 ---
 
-## 👋 Обо мне
-
-🚀 **Fullstack-разработчик** — запускаю проекты от идеи до промышленной эксплуатации.
-🛠️ Проектирую и развиваю **open-source .NET SDK** для российского финтеха и не только.
-💼 4 года коммерческого опыта: архитектура, масштабирование, разработка под ключ.
-🌐 Основатель [**VerificaHub**](https://verificahub.ru) — платформы верификации пользователей.
-
-<details>
-<summary>🇬🇧 <b>About me (English)</b></summary>
-
-<br>
+## 👋 About me
 
 🚀 **Fullstack engineer** — I take products from idea to production.
 🛠️ I design and maintain **open-source .NET SDKs** for fintech and developer tooling.
 💼 4 years of commercial experience: architecture, scaling, end-to-end delivery.
 🌐 Founder of [**VerificaHub**](https://verificahub.ru) — a user-verification platform.
 
-</details>
-
 ---
 
-## 🛠️ Стек / Tech Stack
+## 🛠️ Tech Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
@@ -63,80 +51,54 @@
 
 ---
 
-## 📦 Open-Source .NET SDK
+## 📦 Open-Source .NET SDKs
 
-> Все библиотеки — **dependency-light** (только `HttpClient` + `System.Text.Json`), мульти-таргет `netstandard2.0 · net8.0 · net10.0`, лицензия **MIT**, опубликованы в **NuGet**.
-> *All libraries are dependency-light, multi-target `netstandard2.0 · net8.0 · net10.0`, MIT-licensed and published on NuGet.*
+> All libraries are **dependency-light** (just `HttpClient` + `System.Text.Json`), multi-target `netstandard2.0 · net8.0 · net10.0`, **MIT**-licensed and published on **NuGet**.
 
 <table>
   <thead>
     <tr>
-      <th align="left">Библиотека / Library</th>
-      <th align="left">Описание / Description</th>
+      <th align="left">Library</th>
+      <th align="left">Description</th>
       <th align="center">NuGet</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>
-        <a href="https://github.com/ai-iskuzhin/YooKassaNet"><b>YooKassaNet</b></a>
-      </td>
-      <td>
-        SDK для <a href="https://yookassa.ru/developers/api">API ЮKassa v3</a>: платежи, возвраты, выплаты и безопасные сделки + webhook — одним пакетом.<br>
-        <sub>YooKassa v3: payments, refunds, payouts &amp; safe deals in one package.</sub>
-      </td>
+      <td><a href="https://github.com/ai-iskuzhin/YooKassaNet"><b>YooKassaNet</b></a></td>
+      <td><a href="https://yookassa.ru/developers/api">YooKassa API v3</a>: payments, refunds, payouts &amp; safe deals + webhooks — shipped as one package.</td>
       <td align="center" nowrap>
         <a href="https://www.nuget.org/packages/YooKassaNet"><img src="https://img.shields.io/nuget/v/YooKassaNet?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
         <a href="https://www.nuget.org/packages/YooKassaNet"><img src="https://img.shields.io/nuget/dt/YooKassaNet?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
       </td>
     </tr>
     <tr>
-      <td>
-        <a href="https://github.com/ai-iskuzhin/TBankAcquiringNet"><b>TBankAcquiringNet</b></a>
-      </td>
-      <td>
-        Эквайринг <a href="https://www.tbank.ru/kassa/dev/payments/">Т-Банк (Тинькофф)</a>: инициализация, статус, подтверждение, отмена, возврат, QR, проверка уведомлений.<br>
-        <sub>T-Bank (Tinkoff) acquiring: init, status, confirm, cancel, refund, QR, notifications.</sub>
-      </td>
+      <td><a href="https://github.com/ai-iskuzhin/TBankAcquiringNet"><b>TBankAcquiringNet</b></a></td>
+      <td><a href="https://www.tbank.ru/kassa/dev/payments/">T-Bank (Tinkoff)</a> acquiring: init, status, confirm, cancel, refund, QR operations and notification verification.</td>
       <td align="center" nowrap>
         <a href="https://www.nuget.org/packages/TBankAcquiringNet"><img src="https://img.shields.io/nuget/v/TBankAcquiringNet?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
         <a href="https://www.nuget.org/packages/TBankAcquiringNet"><img src="https://img.shields.io/nuget/dt/TBankAcquiringNet?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
       </td>
     </tr>
     <tr>
-      <td>
-        <a href="https://github.com/ai-iskuzhin/AtolOnlineNet"><b>AtolOnlineNet</b></a>
-      </td>
-      <td>
-        Облачная фискализация <a href="https://online.atol.ru/">АТОЛ Онлайн</a> (ФФД 1.05): чеки прихода / расхода / возврата и чеки коррекции.<br>
-        <sub>ATOL Online cloud fiscalization (FFD 1.05): sale/refund/correction receipts.</sub>
-      </td>
+      <td><a href="https://github.com/ai-iskuzhin/AtolOnlineNet"><b>AtolOnlineNet</b></a></td>
+      <td><a href="https://online.atol.ru/">ATOL Online</a> cloud fiscalization (FFD 1.05): sale / refund / correction receipts and fiscalization results.</td>
       <td align="center" nowrap>
         <a href="https://www.nuget.org/packages/AtolOnlineNet"><img src="https://img.shields.io/nuget/v/AtolOnlineNet?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
         <a href="https://www.nuget.org/packages/AtolOnlineNet"><img src="https://img.shields.io/nuget/dt/AtolOnlineNet?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
       </td>
     </tr>
     <tr>
-      <td>
-        <a href="https://github.com/ai-iskuzhin/TelegramGatewayNet"><b>TelegramGatewayNet</b></a>
-      </td>
-      <td>
-        SDK для <a href="https://core.telegram.org/gateway/api">Telegram Gateway API</a>: доставка кодов подтверждения (OTP) через Telegram + проверка подписи webhook.<br>
-        <sub>Telegram Gateway API: deliver OTP codes over Telegram + webhook signature checks.</sub>
-      </td>
+      <td><a href="https://github.com/ai-iskuzhin/TelegramGatewayNet"><b>TelegramGatewayNet</b></a></td>
+      <td><a href="https://core.telegram.org/gateway/api">Telegram Gateway API</a>: deliver verification codes (OTP) over Telegram + delivery-report (webhook) signature validation.</td>
       <td align="center" nowrap>
         <a href="https://www.nuget.org/packages/TelegramGatewayNet"><img src="https://img.shields.io/nuget/v/TelegramGatewayNet?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
         <a href="https://www.nuget.org/packages/TelegramGatewayNet"><img src="https://img.shields.io/nuget/dt/TelegramGatewayNet?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
       </td>
     </tr>
     <tr>
-      <td>
-        <a href="https://github.com/ai-iskuzhin/RsqlParserNet"><b>RsqlParserNet</b></a>
-      </td>
-      <td>
-        Парсер RSQL/FIQL-выражений для REST API: типизированный AST, диагностика + адаптеры LINQ, EF Core, ASP.NET Core, FastEndpoints, OpenAPI.<br>
-        <sub>RSQL/FIQL query parser: typed AST, diagnostics + LINQ / EF Core / ASP.NET Core adapters.</sub>
-      </td>
+      <td><a href="https://github.com/ai-iskuzhin/RsqlParserNet"><b>RsqlParserNet</b></a></td>
+      <td>RSQL/FIQL query-expression parser for REST APIs: typed AST &amp; diagnostics + LINQ, EF Core, ASP.NET Core, FastEndpoints and OpenAPI adapters.</td>
       <td align="center" nowrap>
         <a href="https://www.nuget.org/packages/RsqlParserNet"><img src="https://img.shields.io/nuget/v/RsqlParserNet?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
         <a href="https://www.nuget.org/packages/RsqlParserNet"><img src="https://img.shields.io/nuget/dt/RsqlParserNet?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
@@ -147,16 +109,16 @@
 
 ---
 
-## 🌟 Флагманский продукт / Flagship Product
+## 🌟 Flagship Product
 
 <table>
   <tr>
     <td valign="top" width="62%">
       <h3>🛡️ <a href="https://verificahub.ru">VerificaHub</a></h3>
-      <p><b>Платформа верификации пользователей в одном API</b> — звонки, SMS, голос, мессенджеры и многое другое.</p>
-      <p><sub>User-verification platform in one API — calls, SMS, voice, social apps and more.</sub></p>
+      <p><b>User-verification platform in one API</b> — calls, SMS, voice, social apps and more.</p>
       <p>
-        v1 — входящая верификация по <b>flash-call</b>: пользователь звонит на выданный номер, звонок сбрасывается, мы сопоставляем caller-id с сессией. Без исходящих вызовов и без ответа на звонок.
+        v1 ships inbound <b>flash-call</b> verification: a user dials a number we hand out, the call is
+        rejected, and we match the caller-id to a pending session. No outbound dialing, no answered calls.
       </p>
       <p>
         <a href="https://verificahub.ru"><img src="https://img.shields.io/badge/🌐_verificahub.ru-7C3AED?style=flat-square" alt="site" /></a>
@@ -164,7 +126,7 @@
       </p>
     </td>
     <td valign="top" width="38%">
-      <b>Стек / Stack</b>
+      <b>Stack</b>
       <ul>
         <li>ASP.NET Core · FastEndpoints</li>
         <li>EF Core 10 · PostgreSQL (Npgsql)</li>
@@ -195,7 +157,7 @@
 
 ---
 
-## 📫 Контакты / Contacts
+## 📫 Contacts
 
 <p align="center">
   <a href="https://t.me/mrx_eternal"><img src="https://img.shields.io/badge/Telegram-@mrx__eternal-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
@@ -203,6 +165,6 @@
   <a href="https://verificahub.ru"><img src="https://img.shields.io/badge/Website-verificahub.ru-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
 </p>
 
-<p align="center"><i>Открыт к сотрудничеству 🚀 &nbsp;·&nbsp; Open to collaboration</i></p>
+<p align="center"><i>Open to collaboration 🚀</i></p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,50:7C3AED,100:6D28D9&height=120&section=footer" alt="footer" />
