@@ -160,9 +160,10 @@
 ## 📫 Contacts
 
 <p align="center">
+  <a href="https://ai-iskuzhin.github.io"><img src="https://img.shields.io/badge/Website-ai--iskuzhin.github.io-2563EB?style=for-the-badge&logo=githubpages&logoColor=white" alt="Personal site" /></a>
   <a href="https://t.me/mrx_eternal"><img src="https://img.shields.io/badge/Telegram-@mrx__eternal-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
   <a href="mailto:aigiz.iskuzhin@yandex.ru"><img src="https://img.shields.io/badge/Email-aigiz.iskuzhin@yandex.ru-FC3F1D?style=for-the-badge&logo=yandex&logoColor=white" alt="Email" /></a>
-  <a href="https://verificahub.ru"><img src="https://img.shields.io/badge/Website-verificahub.ru-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://verificahub.ru"><img src="https://img.shields.io/badge/VerificaHub-verificahub.ru-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="VerificaHub" /></a>
 </p>
 
 <p align="center"><i>Open to collaboration 🚀</i></p>
