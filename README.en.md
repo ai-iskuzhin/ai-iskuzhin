@@ -53,7 +53,7 @@
 
 ## 📦 Open-Source .NET SDKs
 
-> All libraries are **dependency-light** (just `HttpClient` + `System.Text.Json`), multi-target `netstandard2.0 · net8.0 · net10.0`, **MIT**-licensed and published on **NuGet**.
+> Every library keeps dependencies to a minimum, targets `netstandard2.0 · net8.0 · net10.0`, is **MIT**-licensed and published on **NuGet**.
 
 <table>
   <thead>
@@ -161,7 +161,7 @@
 
 <p align="center">
   <a href="https://t.me/mrx_eternal"><img src="https://img.shields.io/badge/Telegram-@mrx__eternal-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-  <a href="mailto:aigiziskuzhin@gmail.com"><img src="https://img.shields.io/badge/Email-aigiziskuzhin@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:aigiz.iskuzhin@yandex.ru"><img src="https://img.shields.io/badge/Email-aigiz.iskuzhin@yandex.ru-FC3F1D?style=for-the-badge&logo=yandex&logoColor=white" alt="Email" /></a>
   <a href="https://verificahub.ru"><img src="https://img.shields.io/badge/Website-verificahub.ru-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
 </p>
 
