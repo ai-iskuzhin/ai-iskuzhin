@@ -97,6 +97,14 @@
       </td>
     </tr>
     <tr>
+      <td><a href="https://github.com/ai-iskuzhin/MtsIdNet"><b>MtsIdNet</b></a></td>
+      <td><a href="https://mobileid.mts.ru/">MTS Mobile ID</a> (OIDC/OAuth2): server-initiated (CIBA) authentication, signed request object, JWKS publishing, SMS-OTP, <code>id_token</code> validation, premiuminfo and KYC (kyc-match-split).</td>
+      <td align="center" nowrap>
+        <a href="https://www.nuget.org/packages/MtsIdNet"><img src="https://img.shields.io/nuget/v/MtsIdNet?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
+        <a href="https://www.nuget.org/packages/MtsIdNet"><img src="https://img.shields.io/nuget/dt/MtsIdNet?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
+      </td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/ai-iskuzhin/RsqlParserNet"><b>RsqlParserNet</b></a></td>
       <td>RSQL/FIQL query-expression parser for REST APIs: typed AST &amp; diagnostics + LINQ, EF Core, ASP.NET Core, FastEndpoints and OpenAPI adapters.</td>
       <td align="center" nowrap>

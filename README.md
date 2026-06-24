@@ -131,6 +131,19 @@
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/ai-iskuzhin/MtsIdNet"><b>MtsIdNet</b></a>
+      </td>
+      <td>
+        SDK для <a href="https://mobileid.mts.ru/">МТС «Мобильный ID»</a> (OIDC/OAuth2): серверная (CIBA) аутентификация, JWKS, SMS-OTP, валидация id_token, premiuminfo и KYC.<br>
+        <sub>MTS Mobile ID (OIDC/OAuth2): server-initiated (CIBA) auth, JWKS, SMS-OTP, id_token validation, premiuminfo &amp; KYC.</sub>
+      </td>
+      <td align="center" nowrap>
+        <a href="https://www.nuget.org/packages/MtsIdNet"><img src="https://img.shields.io/nuget/v/MtsIdNet?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
+        <a href="https://www.nuget.org/packages/MtsIdNet"><img src="https://img.shields.io/nuget/dt/MtsIdNet?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://github.com/ai-iskuzhin/RsqlParserNet"><b>RsqlParserNet</b></a>
       </td>
       <td>
