@@ -89,6 +89,14 @@
       </td>
     </tr>
     <tr>
+      <td><a href="https://github.com/ai-iskuzhin/TBankNet.Junior"><b>TBankNet.Junior</b></a></td>
+      <td>Unofficial SDK for <a href="https://developer.tbank.ru/docs/api/get-api-v-3-school-cards">T-Bank Junior</a> (school cards): list school cards and manage schools (list/create/delete). Requires a GOST mTLS certificate.</td>
+      <td align="center" nowrap>
+        <a href="https://www.nuget.org/packages/TBankNet.Junior"><img src="https://img.shields.io/nuget/v/TBankNet.Junior?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
+        <a href="https://www.nuget.org/packages/TBankNet.Junior"><img src="https://img.shields.io/nuget/dt/TBankNet.Junior?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
+      </td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/ai-iskuzhin/AtolOnlineNet"><b>AtolOnlineNet</b></a></td>
       <td><a href="https://online.atol.ru/">ATOL Online</a> cloud fiscalization (FFD 1.05): sale / refund / correction receipts and fiscalization results.</td>
       <td align="center" nowrap>
