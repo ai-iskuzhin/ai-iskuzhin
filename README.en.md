@@ -81,6 +81,14 @@
       </td>
     </tr>
     <tr>
+      <td><a href="https://github.com/ai-iskuzhin/TBankNet.B2BQr"><b>TBankNet.B2BQr</b></a></td>
+      <td>Unofficial SDK for <a href="https://developer.tbank.ru/docs/api/post-api-v-1-b-2-b-qr-onetime">T-Bank B2B QR (SBP)</a>: one-time and reusable payment links, plus status and QR-image retrieval.</td>
+      <td align="center" nowrap>
+        <a href="https://www.nuget.org/packages/TBankNet.B2BQr"><img src="https://img.shields.io/nuget/v/TBankNet.B2BQr?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
+        <a href="https://www.nuget.org/packages/TBankNet.B2BQr"><img src="https://img.shields.io/nuget/dt/TBankNet.B2BQr?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
+      </td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/ai-iskuzhin/AtolOnlineNet"><b>AtolOnlineNet</b></a></td>
       <td><a href="https://online.atol.ru/">ATOL Online</a> cloud fiscalization (FFD 1.05): sale / refund / correction receipts and fiscalization results.</td>
       <td align="center" nowrap>
