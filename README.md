@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://verificahub.ru"><img src="https://img.shields.io/badge/Founder-VerificaHub-7C3AED?style=for-the-badge&logo=rocket&logoColor=white" alt="VerificaHub" /></a>
-  <a href="https://www.nuget.org/profiles/ai-iskuzhin"><img src="https://img.shields.io/badge/NuGet-5%2B%20packages-004880?style=for-the-badge&logo=nuget&logoColor=white" alt="NuGet" /></a>
+  <a href="https://www.nuget.org/profiles/ai-iskuzhin"><img src="https://img.shields.io/badge/NuGet-12%2B%20packages-004880?style=for-the-badge&logo=nuget&logoColor=white" alt="NuGet" /></a>
   <img src="https://komarev.com/ghpvc/?username=ai-iskuzhin&style=for-the-badge&color=6D28D9&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
@@ -194,6 +194,45 @@
         <a href="https://www.nuget.org/packages/RsqlParserNet"><img src="https://img.shields.io/nuget/dt/RsqlParserNet?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
       </td>
     </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/ai-iskuzhin/School21Net"><b>School21Net</b></a>
+      </td>
+      <td>
+        Типизированный клиент для официального API <a href="https://platform.21-school.ru">Школы 21</a>: участники, проекты, кампусы и коалиции. На нём построен <a href="https://pir2pir.ru">Пир2Пир</a>.<br>
+        <sub>Typed client for the official School 21 API: participants, projects, campuses &amp; coalitions. Powers Pir2Pir.</sub>
+      </td>
+      <td align="center" nowrap>
+        <a href="https://www.nuget.org/packages/School21Net"><img src="https://img.shields.io/nuget/v/School21Net?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
+        <a href="https://www.nuget.org/packages/School21Net"><img src="https://img.shields.io/nuget/dt/School21Net?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/ai-iskuzhin/YandexNet.Metrika"><b>YandexNet.Metrika</b></a>
+      </td>
+      <td>
+        SDK для <a href="https://yandex.ru/dev/metrika/">API Яндекс Метрики</a>: цели, офлайн-конверсии (серверная атрибуция выручки) и отчёты. Stateless: свой токен или OAuth 2.0.<br>
+        <sub>Yandex Metrika API: goals, offline conversions (server-side revenue attribution) &amp; reports. Stateless.</sub>
+      </td>
+      <td align="center" nowrap>
+        <a href="https://www.nuget.org/packages/YandexNet.Metrika"><img src="https://img.shields.io/nuget/v/YandexNet.Metrika?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
+        <a href="https://www.nuget.org/packages/YandexNet.Metrika"><img src="https://img.shields.io/nuget/dt/YandexNet.Metrika?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/ai-iskuzhin/RocketNet.Chat"><b>RocketNet.Chat</b></a>
+      </td>
+      <td>
+        Неофициальный SDK для <a href="https://developer.rocket.chat/apidocs">Rocket.Chat REST API</a>: найти пользователя, открыть личный чат и отправить сообщение + история и счётчики непрочитанного.<br>
+        <sub>Unofficial Rocket.Chat REST API: find a user, open the DM &amp; post + history and unread counters.</sub>
+      </td>
+      <td align="center" nowrap>
+        <a href="https://www.nuget.org/packages/RocketNet.Chat"><img src="https://img.shields.io/nuget/v/RocketNet.Chat?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
+        <a href="https://www.nuget.org/packages/RocketNet.Chat"><img src="https://img.shields.io/nuget/dt/RocketNet.Chat?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -227,6 +266,17 @@
     </td>
   </tr>
 </table>
+
+### 🤝 <a href="https://pir2pir.ru">Пир2Пир</a> &nbsp;<sub>Pir2Pir</sub>
+
+**Сервис для студентов Школы 21** — находит участника, который проверит ваш проект, и даёт место, где об этом договориться. Автоподбор спрашивает кандидатов сам и останавливается на первом согласии; веб-приложение, Telegram- и MAX-боты, вход по школьной почте, одноразовые чаты. Построен на моём открытом SDK <a href="https://github.com/ai-iskuzhin/School21Net">School21Net</a>.
+
+<sub>A peer-review matchmaking service for School 21 students — finds a peer to review your project and a place to arrange it. Auto-matching, web + Telegram + MAX bots, built on the open-source School21Net SDK.</sub>
+
+<p>
+  <a href="https://pir2pir.ru"><img src="https://img.shields.io/badge/🌐_pir2pir.ru-2563EB?style=flat-square" alt="site" /></a>
+  <a href="https://t.me/pir2pirbot"><img src="https://img.shields.io/badge/Telegram-@pir2pirbot-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="telegram" /></a>
+</p>
 
 ---
 
