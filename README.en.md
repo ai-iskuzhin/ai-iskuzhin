@@ -165,7 +165,7 @@
 
 ---
 
-## 🌟 Flagship Product
+## 🌟 Flagship Products
 
 <table>
   <tr>
@@ -194,14 +194,31 @@
   </tr>
 </table>
 
-### 🤝 <a href="https://pir2pir.ru">Pir2Pir</a>
-
-**A peer-review matchmaking service for School 21 students** — it finds a peer to review your project and gives you a place to arrange it. Auto-matching asks suitable candidates itself and stops at the first “yes”; web app plus Telegram and MAX bots, school-email login, ephemeral chats. Built on my open-source <a href="https://github.com/ai-iskuzhin/School21Net">School21Net</a> SDK.
-
-<p>
-  <a href="https://pir2pir.ru"><img src="https://img.shields.io/badge/🌐_pir2pir.ru-2563EB?style=flat-square" alt="site" /></a>
-  <a href="https://t.me/pir2pirbot"><img src="https://img.shields.io/badge/Telegram-@pir2pirbot-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="telegram" /></a>
-</p>
+<table>
+  <tr>
+    <td valign="top" width="62%">
+      <h3>🤝 <a href="https://pir2pir.ru">Pir2Pir</a></h3>
+      <p><b>A peer-review matchmaking service for School 21 students</b> — it finds a peer to review your project and gives you a place to arrange it.</p>
+      <p>
+        Auto-matching asks suitable candidates itself and stops at the first “yes”; web app plus Telegram
+        and MAX bots, school-email login, ephemeral chats.
+      </p>
+      <p>
+        <a href="https://pir2pir.ru"><img src="https://img.shields.io/badge/🌐_pir2pir.ru-2563EB?style=flat-square" alt="site" /></a>
+        <a href="https://t.me/pir2pirbot"><img src="https://img.shields.io/badge/Telegram-@pir2pirbot-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="telegram" /></a>
+      </p>
+    </td>
+    <td valign="top" width="38%">
+      <b>Stack</b>
+      <ul>
+        <li>ASP.NET Core · PostgreSQL</li>
+        <li><a href="https://github.com/ai-iskuzhin/School21Net">School21Net</a> SDK</li>
+        <li>Telegram · MAX bots</li>
+        <li>React · TypeScript (web)</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 

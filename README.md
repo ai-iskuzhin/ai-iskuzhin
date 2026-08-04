@@ -238,7 +238,7 @@
 
 ---
 
-## 🌟 Флагманский продукт / Flagship Product
+## 🌟 Флагманские продукты / Flagship Products
 
 <table>
   <tr>
@@ -267,16 +267,31 @@
   </tr>
 </table>
 
-### 🤝 <a href="https://pir2pir.ru">Пир2Пир</a> &nbsp;<sub>Pir2Pir</sub>
-
-**Сервис для студентов Школы 21** — находит участника, который проверит ваш проект, и даёт место, где об этом договориться. Автоподбор спрашивает кандидатов сам и останавливается на первом согласии; веб-приложение, Telegram- и MAX-боты, вход по школьной почте, одноразовые чаты. Построен на моём открытом SDK <a href="https://github.com/ai-iskuzhin/School21Net">School21Net</a>.
-
-<sub>A peer-review matchmaking service for School 21 students — finds a peer to review your project and a place to arrange it. Auto-matching, web + Telegram + MAX bots, built on the open-source School21Net SDK.</sub>
-
-<p>
-  <a href="https://pir2pir.ru"><img src="https://img.shields.io/badge/🌐_pir2pir.ru-2563EB?style=flat-square" alt="site" /></a>
-  <a href="https://t.me/pir2pirbot"><img src="https://img.shields.io/badge/Telegram-@pir2pirbot-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="telegram" /></a>
-</p>
+<table>
+  <tr>
+    <td valign="top" width="62%">
+      <h3>🤝 <a href="https://pir2pir.ru">Пир2Пир</a> <sub>Pir2Pir</sub></h3>
+      <p><b>Сервис для студентов Школы 21</b> — находит участника, который проверит ваш проект, и даёт место, где об этом договориться.</p>
+      <p><sub>A peer-review matchmaking service for School 21 students — finds a peer to review your project and a place to arrange it.</sub></p>
+      <p>
+        Автоподбор спрашивает подходящих кандидатов сам и останавливается на первом согласии; веб-приложение, Telegram- и MAX-боты, вход по школьной почте, одноразовые чаты.
+      </p>
+      <p>
+        <a href="https://pir2pir.ru"><img src="https://img.shields.io/badge/🌐_pir2pir.ru-2563EB?style=flat-square" alt="site" /></a>
+        <a href="https://t.me/pir2pirbot"><img src="https://img.shields.io/badge/Telegram-@pir2pirbot-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="telegram" /></a>
+      </p>
+    </td>
+    <td valign="top" width="38%">
+      <b>Стек / Stack</b>
+      <ul>
+        <li>ASP.NET Core · PostgreSQL</li>
+        <li><a href="https://github.com/ai-iskuzhin/School21Net">School21Net</a> SDK</li>
+        <li>Telegram · MAX боты</li>
+        <li>React · TypeScript (web)</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
