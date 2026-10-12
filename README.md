@@ -5,8 +5,10 @@
 
 <p align="center">
   <a href="https://verificahub.ru"><img src="https://img.shields.io/badge/Founder-VerificaHub-7C3AED?style=for-the-badge&logo=rocket&logoColor=white" alt="VerificaHub" /></a>
-  <a href="https://www.nuget.org/profiles/ai-iskuzhin"><img src="https://img.shields.io/badge/NuGet-12%2B%20packages-004880?style=for-the-badge&logo=nuget&logoColor=white" alt="NuGet" /></a>
-  <img src="https://komarev.com/ghpvc/?username=ai-iskuzhin&style=for-the-badge&color=6D28D9&label=PROFILE+VIEWS" alt="Profile views" />
+  <a href="https://talkyhub.ru"><img src="https://img.shields.io/badge/TalkyHub-omnichannel_support-5B3FD8?style=for-the-badge" alt="TalkyHub" /></a>
+  <a href="https://sportgearhub.ru"><img src="https://img.shields.io/badge/SportGearHub-gear_rental-0114FC?style=for-the-badge" alt="SportGearHub" /></a>
+  <a href="https://www.nuget.org/profiles/ai-iskuzhin"><img src="https://img.shields.io/badge/NuGet-15%2B%20packages-004880?style=for-the-badge&logo=nuget&logoColor=white" alt="NuGet" /></a>
+  <img src="https://hits.sh/github.com/ai-iskuzhin.svg?style=for-the-badge&label=PROFILE%20VIEWS&color=6D28D9" alt="Profile views" />
 </p>
 
 <p align="center">
@@ -28,6 +30,8 @@
 🛠️ Проектирую и развиваю **open-source .NET SDK** для российского финтеха и не только.
 💼 4 года коммерческого опыта: архитектура, масштабирование, разработка под ключ.
 🌐 Основатель [**VerificaHub**](https://verificahub.ru) — платформы верификации пользователей.
+💬 Развиваю [**TalkyHub**](https://talkyhub.ru) — омниканальную поддержку клиентов — и [**SportGearHub**](https://sportgearhub.ru) — маркетплейс проката снаряжения.
+🎓 Создал [**Пир2Пир**](https://pir2pir.ru) — платформу взаимных проверок для участников Школы 21.
 
 <details>
 <summary>🇬🇧 <b>About me (English)</b></summary>
@@ -38,6 +42,8 @@
 🛠️ I design and maintain **open-source .NET SDKs** for fintech and developer tooling.
 💼 4 years of commercial experience: architecture, scaling, end-to-end delivery.
 🌐 Founder of [**VerificaHub**](https://verificahub.ru) — a user-verification platform.
+💬 Building [**TalkyHub**](https://talkyhub.ru) (omnichannel customer support) and [**SportGearHub**](https://sportgearhub.ru) (sports-gear rental marketplace).
+🎓 Created [**Pir2Pir**](https://pir2pir.ru) — peer-review matchmaking for School 21 students.
 
 </details>
 
@@ -65,8 +71,8 @@
 
 ## 📦 Open-Source .NET SDK
 
-> Все библиотеки — с минимумом зависимостей, поддерживают `netstandard2.0 · net8.0 · net10.0`, распространяются под лицензией **MIT** и опубликованы в **NuGet**.
-> *Minimal dependencies · `netstandard2.0 · net8.0 · net10.0` · MIT · published on NuGet.*
+> Все библиотеки — с минимумом зависимостей, нацелены на `net8.0 · net10.0` (большинство — также `netstandard2.0`), распространяются под лицензией **MIT** и опубликованы в **NuGet**.
+> *Minimal dependencies · `net8.0 · net10.0` (most also `netstandard2.0`) · MIT · published on NuGet.*
 
 <table>
   <thead>
@@ -144,6 +150,29 @@
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/ai-iskuzhin/TBankNet.Multisplit"><b>TBankNet.Multisplit</b></a>
+      </td>
+      <td>
+        Неофициальный SDK для <a href="https://www.tbank.ru/kassa/develop/api/multisplit/">T-Bank «Мультисплит»</a>: регистрация, получение и обновление точек (магазинов) в схеме сплитования.<br>
+        <sub>Unofficial T-Bank Multisplit: register, fetch &amp; update shops (split-payment points).</sub>
+      </td>
+      <td align="center" nowrap>
+        <a href="https://www.nuget.org/packages/TBankNet.Multisplit"><img src="https://img.shields.io/nuget/v/TBankNet.Multisplit?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
+        <a href="https://www.nuget.org/packages/TBankNet.Multisplit"><img src="https://img.shields.io/nuget/dt/TBankNet.Multisplit?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/ai-iskuzhin/TBankNet.ID"><b>TBankNet.ID</b></a>
+      </td>
+      <td>
+        Неофициальный SDK для <a href="https://developer.tbank.ru/docs/api/t-id">T-ID</a> (OAuth 2.0 / OIDC): ссылка на вход, обмен кода на токены, интроспекция и профиль/телефон пользователя.<br>
+        <sub>Unofficial T-ID (OAuth 2.0 / OIDC): sign-in URL, code exchange, token introspection, user profile &amp; phone.</sub>
+      </td>
+      <td align="center" nowrap><sub>скоро<br>soon</sub></td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://github.com/ai-iskuzhin/AtolOnlineNet"><b>AtolOnlineNet</b></a>
       </td>
       <td>
@@ -153,6 +182,19 @@
       <td align="center" nowrap>
         <a href="https://www.nuget.org/packages/AtolOnlineNet"><img src="https://img.shields.io/nuget/v/AtolOnlineNet?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
         <a href="https://www.nuget.org/packages/AtolOnlineNet"><img src="https://img.shields.io/nuget/dt/AtolOnlineNet?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/ai-iskuzhin/FnsNet.NpdStatus"><b>FnsNet.NpdStatus</b></a>
+      </td>
+      <td>
+        SDK для публичного сервиса <a href="https://npd.nalog.ru/check-status/">ФНС «Проверка статуса самозанятого»</a>: по ИНН и дате — был ли человек плательщиком НПД.<br>
+        <sub>Russian Tax Service (FNS) public API: check whether a taxpayer was self-employed (NPD) on a given date.</sub>
+      </td>
+      <td align="center" nowrap>
+        <a href="https://www.nuget.org/packages/FnsNet.NpdStatus"><img src="https://img.shields.io/nuget/v/FnsNet.NpdStatus?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
+        <a href="https://www.nuget.org/packages/FnsNet.NpdStatus"><img src="https://img.shields.io/nuget/dt/FnsNet.NpdStatus?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
       </td>
     </tr>
     <tr>
@@ -170,6 +212,32 @@
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/ai-iskuzhin/ExolveNet"><b>ExolveNet</b></a>
+      </td>
+      <td>
+        Неофициальный SDK для <a href="https://exolve.ru/">МТС Exolve</a> (HLR): активность номера, статус SIM, оператор и регион, лучшее время для звонка/SMS + пакетные отчёты до 50 000 номеров.<br>
+        <sub>Unofficial MTS Exolve (HLR): number activity, SIM status, carrier &amp; region, best call/SMS time + batch reports.</sub>
+      </td>
+      <td align="center" nowrap>
+        <a href="https://www.nuget.org/packages/ExolveNet"><img src="https://img.shields.io/nuget/v/ExolveNet?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
+        <a href="https://www.nuget.org/packages/ExolveNet"><img src="https://img.shields.io/nuget/dt/ExolveNet?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/ai-iskuzhin/RocketNet.Chat"><b>RocketNet.Chat</b></a>
+      </td>
+      <td>
+        Неофициальный SDK для <a href="https://developer.rocket.chat/apidocs">Rocket.Chat REST API</a>: найти пользователя, открыть личный чат и отправить сообщение + история и счётчики непрочитанного.<br>
+        <sub>Unofficial Rocket.Chat REST API: find a user, open the DM &amp; post + history and unread counters.</sub>
+      </td>
+      <td align="center" nowrap>
+        <a href="https://www.nuget.org/packages/RocketNet.Chat"><img src="https://img.shields.io/nuget/v/RocketNet.Chat?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
+        <a href="https://www.nuget.org/packages/RocketNet.Chat"><img src="https://img.shields.io/nuget/dt/RocketNet.Chat?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://github.com/ai-iskuzhin/MtsIdNet"><b>MtsIdNet</b></a>
       </td>
       <td>
@@ -183,15 +251,28 @@
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/ai-iskuzhin/RsqlParserNet"><b>RsqlParserNet</b></a>
+        <a href="https://github.com/ai-iskuzhin/YandexNet.Metrika"><b>YandexNet.Metrika</b></a>
       </td>
       <td>
-        Парсер RSQL/FIQL-выражений для REST API: типизированный AST, диагностика + адаптеры LINQ, EF Core, ASP.NET Core, FastEndpoints, OpenAPI.<br>
-        <sub>RSQL/FIQL query parser: typed AST, diagnostics + LINQ / EF Core / ASP.NET Core adapters.</sub>
+        SDK для <a href="https://yandex.ru/dev/metrika/">API Яндекс Метрики</a>: цели, офлайн-конверсии (серверная атрибуция выручки) и отчёты. Stateless: свой токен или OAuth 2.0.<br>
+        <sub>Yandex Metrika API: goals, offline conversions (server-side revenue attribution), reports + Yandex OAuth helpers.</sub>
       </td>
       <td align="center" nowrap>
-        <a href="https://www.nuget.org/packages/RsqlParserNet"><img src="https://img.shields.io/nuget/v/RsqlParserNet?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
-        <a href="https://www.nuget.org/packages/RsqlParserNet"><img src="https://img.shields.io/nuget/dt/RsqlParserNet?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
+        <a href="https://www.nuget.org/packages/YandexNet.Metrika"><img src="https://img.shields.io/nuget/v/YandexNet.Metrika?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
+        <a href="https://www.nuget.org/packages/YandexNet.Metrika"><img src="https://img.shields.io/nuget/dt/YandexNet.Metrika?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/ai-iskuzhin/BeelineNet.LeadGenerator"><b>BeelineNet.LeadGenerator</b></a>
+      </td>
+      <td>
+        Клиент партнёрского API <b>билайн B2B Lead Generator</b>: передача лидов рекламным агентом, поиск и статус лидов, каталог продуктов, загрузка шаблонов. mTLS.<br>
+        <sub>beeline B2B Lead Generator partner API: submit leads, search/poll status, product catalogue, template upload. mTLS.</sub>
+      </td>
+      <td align="center" nowrap>
+        <a href="https://www.nuget.org/packages/BeelineNet.LeadGenerator"><img src="https://img.shields.io/nuget/v/BeelineNet.LeadGenerator?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
+        <a href="https://www.nuget.org/packages/BeelineNet.LeadGenerator"><img src="https://img.shields.io/nuget/dt/BeelineNet.LeadGenerator?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
       </td>
     </tr>
     <tr>
@@ -209,28 +290,15 @@
     </tr>
     <tr>
       <td>
-        <a href="https://github.com/ai-iskuzhin/YandexNet.Metrika"><b>YandexNet.Metrika</b></a>
+        <a href="https://github.com/ai-iskuzhin/RsqlParserNet"><b>RsqlParserNet</b></a>
       </td>
       <td>
-        SDK для <a href="https://yandex.ru/dev/metrika/">API Яндекс Метрики</a>: цели, офлайн-конверсии (серверная атрибуция выручки) и отчёты. Stateless: свой токен или OAuth 2.0.<br>
-        <sub>Yandex Metrika API: goals, offline conversions (server-side revenue attribution) &amp; reports. Stateless.</sub>
+        Парсер RSQL/FIQL-выражений для REST API: типизированный AST, диагностика + адаптеры LINQ, EF Core, ASP.NET Core, FastEndpoints, OpenAPI.<br>
+        <sub>RSQL/FIQL query parser: typed AST, diagnostics + LINQ / EF Core / ASP.NET Core adapters.</sub>
       </td>
       <td align="center" nowrap>
-        <a href="https://www.nuget.org/packages/YandexNet.Metrika"><img src="https://img.shields.io/nuget/v/YandexNet.Metrika?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
-        <a href="https://www.nuget.org/packages/YandexNet.Metrika"><img src="https://img.shields.io/nuget/dt/YandexNet.Metrika?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/ai-iskuzhin/RocketNet.Chat"><b>RocketNet.Chat</b></a>
-      </td>
-      <td>
-        Неофициальный SDK для <a href="https://developer.rocket.chat/apidocs">Rocket.Chat REST API</a>: найти пользователя, открыть личный чат и отправить сообщение + история и счётчики непрочитанного.<br>
-        <sub>Unofficial Rocket.Chat REST API: find a user, open the DM &amp; post + history and unread counters.</sub>
-      </td>
-      <td align="center" nowrap>
-        <a href="https://www.nuget.org/packages/RocketNet.Chat"><img src="https://img.shields.io/nuget/v/RocketNet.Chat?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
-        <a href="https://www.nuget.org/packages/RocketNet.Chat"><img src="https://img.shields.io/nuget/dt/RocketNet.Chat?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
+        <a href="https://www.nuget.org/packages/RsqlParserNet"><img src="https://img.shields.io/nuget/v/RsqlParserNet?logo=nuget&label=&color=004880" alt="NuGet" /></a><br>
+        <a href="https://www.nuget.org/packages/RsqlParserNet"><img src="https://img.shields.io/nuget/dt/RsqlParserNet?label=%E2%87%A9&color=512BD4" alt="Downloads" /></a>
       </td>
     </tr>
   </tbody>
@@ -242,8 +310,11 @@
 
 <table>
   <tr>
-    <td valign="top" width="62%">
-      <h3>🛡️ <a href="https://verificahub.ru">VerificaHub</a></h3>
+    <td valign="middle" align="center" width="120">
+      <a href="https://verificahub.ru"><img src="./assets/verificahub.png" width="88" alt="VerificaHub" /></a>
+    </td>
+    <td valign="top">
+      <h3><a href="https://verificahub.ru">VerificaHub</a></h3>
       <p><b>Платформа верификации пользователей в одном API</b> — звонки, SMS, голос, мессенджеры и многое другое.</p>
       <p><sub>User-verification platform in one API — calls, SMS, voice, social apps and more.</sub></p>
       <p>
@@ -254,41 +325,57 @@
         <a href="https://github.com/verificahub"><img src="https://img.shields.io/badge/GitHub-verificahub-181717?style=flat-square&logo=github" alt="github" /></a>
       </p>
     </td>
-    <td valign="top" width="38%">
-      <b>Стек / Stack</b>
-      <ul>
-        <li>ASP.NET Core · FastEndpoints</li>
-        <li>EF Core 10 · PostgreSQL (Npgsql)</li>
-        <li>Redis · Docker</li>
-        <li>React · TypeScript (web)</li>
-        <li>Android gateway devices</li>
-      </ul>
+  </tr>
+  <tr>
+    <td valign="middle" align="center" width="120">
+      <a href="https://talkyhub.ru"><img src="./assets/talkyhub.svg" width="88" alt="TalkyHub" /></a>
+    </td>
+    <td valign="top">
+      <h3><a href="https://talkyhub.ru">TalkyHub</a></h3>
+      <p><b>Омниканальная платформа поддержки клиентов</b> — Telegram, VK, MAX и почта в одном окне команды.</p>
+      <p><sub>Omnichannel customer-support platform — Telegram, VK, MAX and email in one team inbox.</sub></p>
+      <p>
+        Мультитенантные аккаунты, команды и маршрутизация, автоназначение, SLA и обновления в реальном времени. VK и MAX — нативно, без сторонних коннекторов; сообщения без лимита по одной понятной цене.
+      </p>
+      <p>
+        <a href="https://talkyhub.ru"><img src="https://img.shields.io/badge/🌐_talkyhub.ru-5B3FD8?style=flat-square" alt="site" /></a>
+        <a href="https://github.com/talkyhub"><img src="https://img.shields.io/badge/GitHub-talkyhub-181717?style=flat-square&logo=github" alt="github" /></a>
+      </p>
     </td>
   </tr>
-</table>
-
-<table>
   <tr>
-    <td valign="top" width="62%">
-      <h3>🤝 <a href="https://pir2pir.ru">Пир2Пир</a> <sub>Pir2Pir</sub></h3>
-      <p><b>Сервис для студентов Школы 21</b> — находит участника, который проверит ваш проект, и даёт место, где об этом договориться.</p>
-      <p><sub>A peer-review matchmaking service for School 21 students — finds a peer to review your project and a place to arrange it.</sub></p>
+    <td valign="middle" align="center" width="120">
+      <a href="https://sportgearhub.ru"><img src="./assets/sportgearhub.svg" width="88" alt="SportGearHub" /></a>
+    </td>
+    <td valign="top">
+      <h3><a href="https://sportgearhub.ru">SportGearHub</a></h3>
+      <p><b>Маркетплейс проката спортивного снаряжения</b> — велосипеды, SUP-доски, лыжи и походное снаряжение.</p>
+      <p><sub>Sports-gear rental marketplace — bikes, SUP boards, skis and hiking gear.</sub></p>
       <p>
-        Автоподбор спрашивает подходящих кандидатов сам и останавливается на первом согласии; веб-приложение, Telegram- и MAX-боты, вход по школьной почте, одноразовые чаты.
+        Снаряжение от проверенных прокатов: бронь за пару минут и онлайн-оплата. Кабинет для прокатов, админка и встраиваемая витрина для сайта проката.
       </p>
       <p>
-        <a href="https://pir2pir.ru"><img src="https://img.shields.io/badge/🌐_pir2pir.ru-2563EB?style=flat-square" alt="site" /></a>
-        <a href="https://t.me/pir2pirbot"><img src="https://img.shields.io/badge/Telegram-@pir2pirbot-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="telegram" /></a>
+        <a href="https://sportgearhub.ru"><img src="https://img.shields.io/badge/🌐_sportgearhub.ru-0114FC?style=flat-square" alt="site" /></a>
+        <a href="https://github.com/sportgearhub"><img src="https://img.shields.io/badge/GitHub-sportgearhub-181717?style=flat-square&logo=github" alt="github" /></a>
       </p>
     </td>
-    <td valign="top" width="38%">
-      <b>Стек / Stack</b>
-      <ul>
-        <li>ASP.NET Core · PostgreSQL</li>
-        <li><a href="https://github.com/ai-iskuzhin/School21Net">School21Net</a> SDK</li>
-        <li>Telegram · MAX боты</li>
-        <li>React · TypeScript (web)</li>
-      </ul>
+  </tr>
+  <tr>
+    <td valign="middle" align="center" width="120">
+      <a href="https://pir2pir.ru"><img src="./assets/pir2pir.svg" width="88" alt="Pir2Pir" /></a>
+    </td>
+    <td valign="top">
+      <h3><a href="https://pir2pir.ru">Пир2Пир</a> <sub>Pir2Pir</sub></h3>
+      <p><b>Платформа взаимных проверок для участников <a href="https://21-school.ru">Школы 21</a></b> — пир находится сам.</p>
+      <p><sub>Peer-review matchmaking for School 21 students — the platform finds your reviewer.</sub></p>
+      <p>
+        Назовите проект — платформа сама спросит подходящих пиров, остановится на первом согласии и откроет чат. Имена — только при совпадении. Работает как Mini App в Telegram и MAX и в браузере, вход по школьной почте, одноразовые чаты. В реестре российского ПО (№35572).
+      </p>
+      <p>
+        <a href="https://pir2pir.ru"><img src="https://img.shields.io/badge/🌐_pir2pir.ru-E11D48?style=flat-square" alt="site" /></a>
+        <a href="https://t.me/pir2pirbot"><img src="https://img.shields.io/badge/Telegram-@pir2pirbot-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="telegram" /></a>
+        <a href="https://github.com/pir2pir"><img src="https://img.shields.io/badge/GitHub-pir2pir-181717?style=flat-square&logo=github" alt="github" /></a>
+      </p>
     </td>
   </tr>
 </table>
