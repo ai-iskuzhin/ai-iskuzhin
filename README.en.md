@@ -8,7 +8,7 @@
   <a href="https://talkyhub.ru"><img src="https://img.shields.io/badge/TalkyHub-omnichannel_support-5B3FD8?style=for-the-badge" alt="TalkyHub" /></a>
   <a href="https://sportgearhub.ru"><img src="https://img.shields.io/badge/SportGearHub-gear_rental-0114FC?style=for-the-badge" alt="SportGearHub" /></a>
   <a href="https://www.nuget.org/profiles/ai-iskuzhin"><img src="https://img.shields.io/badge/NuGet-15%2B%20packages-004880?style=for-the-badge&logo=nuget&logoColor=white" alt="NuGet" /></a>
-  <img src="https://hits.sh/github.com/ai-iskuzhin.svg?style=for-the-badge&label=PROFILE%20VIEWS&color=6D28D9" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=ai-iskuzhin&style=for-the-badge&color=6D28D9&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 <p align="center">
